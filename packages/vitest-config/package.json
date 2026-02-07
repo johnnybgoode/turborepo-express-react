@@ -10,6 +10,7 @@
   },
   "scripts": {
     "build": "tsc",
+    "clean": "rm -r ./dist",
     "dev": "tsc --watch"
   },
   "dependencies": {
