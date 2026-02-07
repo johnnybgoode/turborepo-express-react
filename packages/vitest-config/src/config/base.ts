@@ -1,5 +1,5 @@
-import { defineConfig, mergeConfig } from "vitest/config";
-import { sharedConfig } from "./shared.js";
+import { defineConfig, mergeConfig } from 'vitest/config';
+import { sharedConfig } from './shared.js';
 
 export const makeBaseConfig = (testConfig = {}) =>
   mergeConfig(

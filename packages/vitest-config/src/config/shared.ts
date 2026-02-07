@@ -3,9 +3,9 @@ export const sharedConfig = {
     global: true,
     coverage: {
       enabled: true,
-      include: ["src/**/*.ts?(x)"],
-      reporter: ["text", "lcov"],
-      reportsDirectory: "coverage",
+      include: ['src/**/*.ts?(x)'],
+      reporter: ['text', 'lcov'],
+      reportsDirectory: 'coverage',
       thresholds: {
         lines: 90,
         functions: 90,
