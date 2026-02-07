@@ -10,7 +10,8 @@
     "dotenv-run": "pnpx @dotenvx/dotenvx run -- ",
     "lint": "biome check --diagnostic-level=warn --write",
     "preview": "vite preview",
-    "test": "vitest run"
+    "test": "vitest run",
+    "postinstall": "[ ! -e .env ] && cp -v .env.example .env || :"
   },
   "dependencies": {
     "react": "^19.2.4",

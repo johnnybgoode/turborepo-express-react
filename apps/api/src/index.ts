@@ -1,6 +1,6 @@
 import { makeServer } from './server.js';
 
-const PORT = process.env.API_PORT || 3002;
+const PORT = process.env.PORT || 3001;
 const server = makeServer();
 
 server.listen(PORT, () => {

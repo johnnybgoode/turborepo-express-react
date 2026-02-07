@@ -10,7 +10,8 @@
     "dotenv-run": "pnpx @dotenvx/dotenvx run -- ",
     "lint": "biome check --diagnostic-level=warn --write",
     "serve": "node dist/index.js",
-    "test": "vitest run"
+    "test": "vitest run",
+    "postinstall": "[ ! -e .env ] && cp -v .env.example .env || :"
   },
   "dependencies": {
     "body-parser": "^2.2.2",
